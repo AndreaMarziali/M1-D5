@@ -68,7 +68,6 @@ function boundary (n){
 }
 n = 19
 console.log(boundary(n))
-
 /* WRITE YOUR CODE HERE */
 
 /* EXERCISE 5
