@@ -45,7 +45,15 @@ if (x=y) {
 Write a function "crazyDiff" that computes the absolute difference between a given number and 19. 
 It should return triple their absolute difference if the given number is greater than 19.
 */
-
+function crazyDiff(n) {
+    if (n <= 19) {
+      return (19 - n);
+      }
+    else
+      {
+       return (n - 19) * 3;
+      }
+  }
 /* EXERCISE 4
 Write a function "boundary" which accept an integer n and returns true if n is within 20 and 100 (included) or if it's equal to 400.
 */
