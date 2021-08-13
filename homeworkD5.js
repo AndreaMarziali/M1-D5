@@ -57,6 +57,17 @@ function crazyDiff(n) {
 /* EXERCISE 4
 Write a function "boundary" which accept an integer n and returns true if n is within 20 and 100 (included) or if it's equal to 400.
 */
+function boundary (n){
+    if (n < 100 && 20 < n) {
+        return true;
+      } else if (n === 400) {
+        return true;
+      } else {
+        return false;
+      }
+}
+n = 19
+console.log(boundary(n))
 
 /* WRITE YOUR CODE HERE */
 
