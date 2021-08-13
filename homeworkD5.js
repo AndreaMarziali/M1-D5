@@ -38,9 +38,9 @@ function crazySum(x,y) {
     const result = x+y
     return result 
 }
-
-
-
+if (x=y) {
+    sum= x+y*3
+}
 /* EXERCISE 3
 Write a function "crazyDiff" that computes the absolute difference between a given number and 19. 
 It should return triple their absolute difference if the given number is greater than 19.
